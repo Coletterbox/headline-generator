@@ -151,11 +151,18 @@ function flipCoin(heads, tails) {
   }
 }
 
-function constructPhrase2() {}
+function constructPhrase2() {
+  let phrase =
+    randomArrayItem(pluralNoun) +
+    " cause " +
+    randomArrayItem(singularNoun) +
+    randomArrayItem(punctuation);
+  document.getElementById("headline2").textContent = phrase;
+}
 
 function runFunctions() {
   constructPhrase();
-  brexitMeans();
+  flipCoin(brexitMeans, constructPhrase2);
   buzzwordTitle();
 }
 
