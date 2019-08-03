@@ -13,16 +13,49 @@
   font-family: "DM Serif Display", serif;
 }
 
-#headline {
+h1 {
+  font-size: 5rem;
+  display: flex;
+  align-content: center;
+  padding: 1rem;
+  margin: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: #0e0c0d;
+  /* color: #98838f; */
+  color: #f5f3f4;
+}
+
+#buzzword {
   font-size: 4rem;
   display: flex;
   align-content: center;
   margin: 2rem;
 }
 
-#headline2 {
-  font-size: 5rem;
+#headline {
+  font-size: 3rem;
   display: flex;
   align-content: center;
   margin: 2rem;
+}
+
+#headline2 {
+  font-size: 4rem;
+  display: flex;
+  align-content: center;
+  margin: 2rem;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+#refresh {
+  font-size: 2em;
+  background-color: #f5f3f4;
+  border: none;
+  padding: 0.5em;
+  margin: 0.5em;
 }
