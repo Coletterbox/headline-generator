@@ -17,6 +17,7 @@ h1 {
   font-size: 5rem;
   display: flex;
   align-content: center;
+  padding: 1rem;
   margin: 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -25,15 +26,22 @@ h1 {
   color: #f5f3f4;
 }
 
-#headline {
+#buzzword {
   font-size: 4rem;
   display: flex;
   align-content: center;
   margin: 2rem;
 }
 
+#headline {
+  font-size: 3rem;
+  display: flex;
+  align-content: center;
+  margin: 2rem;
+}
+
 #headline2 {
-  font-size: 5rem;
+  font-size: 4rem;
   display: flex;
   align-content: center;
   margin: 2rem;

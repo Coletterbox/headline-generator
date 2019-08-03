@@ -1,5 +1,29 @@
 // window.onload = alert("test");
 
+function randomArrayItem(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
+
+const punctuation = ["!", "!!", "!!!", "?!", "."];
+
+// intro phrase
+
+const buzzword = [
+  "cancer",
+  "migrants",
+  "rapists",
+  "murderers",
+  "crime",
+  "death",
+  "AIDS"
+];
+
+function buzzwordTitle() {
+  let buzzword1 = randomArrayItem(buzzword);
+  document.getElementById("buzzword").textContent =
+    buzzword1.toUpperCase() + randomArrayItem(punctuation);
+}
+
 // first phrase
 
 const noun1 = [
@@ -25,7 +49,8 @@ const noun2 = [
   "cancer",
   "fish and chips",
   "newspapers",
-  "British comedians"
+  "British comedians",
+  "asylum seekers"
 ];
 
 const verb1 = [
@@ -59,12 +84,6 @@ const noun3 = [
   "race mixing",
   "British panel shows"
 ];
-
-const punctuation = ["!", "!!", "!!!", "?!", "."];
-
-function randomArrayItem(array) {
-  return array[Math.floor(Math.random() * array.length)];
-}
 
 function constructPhrase() {
   let phrase =
@@ -101,9 +120,43 @@ function brexitMeans() {
   document.getElementById("headline2").textContent = phrase;
 }
 
+// third phrase
+
+const singularNoun = [
+  "cancer",
+  "abortion",
+  "gluten",
+  "autism",
+  "IBS",
+  "kombucha"
+];
+
+const pluralNoun = [
+  "toxins",
+  "babies",
+  "rabies",
+  "creationists",
+  "carbohydrates",
+  "antioxidants",
+  "vaccinations",
+  "feminists",
+  "microgreens"
+];
+
+function flipCoin(heads, tails) {
+  if (Math.floor(Math.random() * 10) % 2 === 0) {
+    return heads();
+  } else {
+    return tails();
+  }
+}
+
+function constructPhrase2() {}
+
 function runFunctions() {
   constructPhrase();
   brexitMeans();
+  buzzwordTitle();
 }
 
 window.onload = runFunctions();
