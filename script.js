@@ -128,13 +128,13 @@ const singularNoun = [
   "gluten",
   "autism",
   "IBS",
-  "kombucha"
+  "kombucha",
+  "rabies"
 ];
 
 const pluralNoun = [
   "toxins",
   "babies",
-  "rabies",
   "creationists",
   "carbohydrates",
   "antioxidants",
@@ -151,11 +151,20 @@ function flipCoin(heads, tails) {
   }
 }
 
-function constructPhrase2() {}
+function constructPhrase2() {
+  let firstWord = randomArrayItem(pluralNoun);
+  let phrase =
+    firstWord.slice(0, 1).toUpperCase() +
+    firstWord.slice(1, firstWord.length) +
+    " cause " +
+    randomArrayItem(singularNoun) +
+    randomArrayItem(punctuation);
+  document.getElementById("headline2").textContent = phrase;
+}
 
 function runFunctions() {
   constructPhrase();
-  brexitMeans();
+  flipCoin(brexitMeans, constructPhrase2);
   buzzwordTitle();
 }
 
