@@ -1,1 +1,1 @@
-window.onload = alert("test");
+// window.onload = alert("test");

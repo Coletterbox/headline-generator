@@ -1,5 +1,16 @@
-#headline {
+* {
   background-color: #98838f;
-  color: red;
-  font-size: 5em;
+  color: #0e0c0d;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+#headline {
+  font-size: 6rem;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
 }
