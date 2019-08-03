@@ -21,7 +21,8 @@ h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   background-color: #0e0c0d;
-  color: #98838f;
+  /* color: #98838f; */
+  color: #f5f3f4;
 }
 
 #headline {
@@ -38,9 +39,15 @@ h1 {
   margin: 2rem;
 }
 
-button {
+#button {
   display: flex;
   justify-content: center;
-  text-align: center;
-  align-content: center;
+}
+
+#refresh {
+  font-size: 2em;
+  background-color: #f5f3f4;
+  border: none;
+  padding: 0.5em;
+  margin: 0.5em;
 }
