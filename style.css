@@ -2,13 +2,27 @@
   background-color: #98838f;
   color: #0e0c0d;
   font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.headline {
+  /* font-size: 4rem; */
+  font-family: "DM Serif Display", serif;
 }
 
 #headline {
-  font-size: 6rem;
-  font-family: "DM Serif Display", serif;
+  font-size: 4rem;
   display: flex;
   align-content: center;
+  margin: 2rem;
+}
+
+#headline2 {
+  font-size: 5rem;
+  display: flex;
+  align-content: center;
+  margin: 2rem;
 }

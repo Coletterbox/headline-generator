@@ -96,3 +96,11 @@ const brexit = [
   "immigrants",
   "apartheid"
 ];
+
+function brexitMeans() {
+  let phrase =
+    "Brexit means " + randomArrayItem(brexit) + randomArrayItem(punctuation);
+  document.getElementById("headline2").textContent = phrase;
+}
+
+window.onload = brexitMeans();
