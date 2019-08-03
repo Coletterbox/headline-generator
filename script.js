@@ -33,7 +33,7 @@ const noun1 = [
   "Quantity",
   "Cost",
   "Quality",
-  "Employment rates"
+  "Employment"
 ];
 
 // ...of...
