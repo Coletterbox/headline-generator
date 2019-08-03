@@ -13,6 +13,17 @@
   font-family: "DM Serif Display", serif;
 }
 
+h1 {
+  font-size: 5rem;
+  display: flex;
+  align-content: center;
+  margin: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: #0e0c0d;
+  color: #98838f;
+}
+
 #headline {
   font-size: 4rem;
   display: flex;
@@ -25,4 +36,11 @@
   display: flex;
   align-content: center;
   margin: 2rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
 }

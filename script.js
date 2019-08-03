@@ -81,8 +81,6 @@ function constructPhrase() {
   document.getElementById("headline").textContent = phrase;
 }
 
-window.onload = constructPhrase();
-
 // second phrase
 
 // Brexit means...
@@ -103,4 +101,10 @@ function brexitMeans() {
   document.getElementById("headline2").textContent = phrase;
 }
 
-window.onload = brexitMeans();
+function runFunctions() {
+  constructPhrase();
+  brexitMeans();
+}
+
+window.onload = runFunctions();
+document.getElementById("refresh").addEventListener("click", runFunctions);
