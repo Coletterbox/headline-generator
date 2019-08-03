@@ -3,14 +3,12 @@
   color: #0e0c0d;
   font-family: "Poppins", sans-serif;
   display: flex;
-  vertical-align: middle;
-  align-items: center;
+  justify-content: center;
 }
 
 #headline {
   font-size: 6rem;
   font-family: "DM Serif Display", serif;
   display: flex;
-  vertical-align: middle;
-  align-items: center;
+  align-content: center;
 }
